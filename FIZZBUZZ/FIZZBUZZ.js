@@ -1,13 +1,4 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FIZZBUZZ</title>
-</head>
-<body>
-    <script>
-        for (let count = 1; count <= 100; count++) {
+	for (let count = 1; count <= 100; count++) {
             if ((count % 3) == 0 && (count % 5) != 0) {
                 console.log("Fizz");
             } else if ((count % 5) == 0 && (count % 3) !=0) {
@@ -18,6 +9,3 @@
                 console.log(count);
             }
         }
-    </script>
-</body>
-</html>
