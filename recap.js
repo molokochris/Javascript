@@ -1,21 +1,4 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recap Chapter 04</title>
-</head>
-<body>
-    <h1>RECAPPING</h1>
-    <p>
-        <ul>
-            <li>Creating an Array</li>
-            <li></li>
-            <li></li>
-        </ul>
-    </p>
 
-    <script>
         //Creating An Array
         let lisOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
         console.log(lisOfNumbers[2]);
@@ -79,9 +62,3 @@
         //maybe ill shouuld leave
         delete monday.ill;
         console.log(Object.keys(monday));
-    </script>
-    <script src="JOURNAL.js">
-        //Okay this is the journal
-    </script>
-</body>
-</html>

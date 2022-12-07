@@ -1,12 +1,4 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CHESSBOARD TWO(ALTERNATIVE SOLUTION)</title>
-</head>
-<body>
-    <script>
+
         for (let size = 8; size > 0; size--) {
             for (let x = 0; x < 4; x++) {
                 if ((size % 2) != 0) {
@@ -19,6 +11,3 @@
             }
             console.log("\n");
         }
-    </script>
-</body>
-</html>
