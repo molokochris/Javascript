@@ -1,11 +1,4 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Looping A Triangle</title>
-
-</head>
-<body>
+/*
     <h2>This is a loop that makes seven calls to console.log 
         to output the following triangle:</h2>
     <p>
@@ -16,7 +9,7 @@
         #####<br />
         ######<br />
         #######<br /></p>
-    <script>
+*/
         let counter, i = 1, numH;
 
         for (counter = 0; counter < 7; counter++) {
@@ -26,6 +19,3 @@
             i++;
             console.log("\n");
         }
-    </script>
-</body>
-</html>
