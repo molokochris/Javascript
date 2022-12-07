@@ -1,11 +1,4 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MINIMUM</title>
-</head>
-<body>
+/*
     <h1>MINIMUM</h1>
     <p>
         The previous chapter introduced the standard function Math.min that returns
@@ -19,7 +12,7 @@
             }
         </code>
     </p>
-    <script>
+*/
         function min(a,b) {
             if (a < b)
             return a;
@@ -27,6 +20,3 @@
             return b;
         }
         console.log(min(10,3));
-    </script>
-</body>
-</html>

@@ -1,11 +1,4 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RECURSION</title>
-</head>
-<body>
+/*
     <h1>RECURSION</h1>
     <p>
         We’ve seen that % (the remainder operator) can be used to test whether a
@@ -43,7 +36,7 @@
             }
         </code>
     </p>
-    <script>
+*/
         function isEven(n) {
             if (n < 0) {
                 n *= -1;
@@ -60,6 +53,3 @@
             return check(2, n);
         }
         console.log(isEven(75));
-    </script>
-</body>
-</html>

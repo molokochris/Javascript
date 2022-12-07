@@ -1,11 +1,4 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BEAN COUNTING</title>
-</head>
-<body>
+/*
     <h1>BEAN COUNTING</h1>
     <p>
         You can get the Nth character, or letter, from a string by writing "string"[N].
@@ -48,8 +41,7 @@
             </ol>
         </code>
     </p>
-
-    <script>
+*/
         function countBs(string) {
             let count = 0, numBs = 0;
             while (count < string.length) {
@@ -71,6 +63,3 @@
         }
 
         console.log(countChar("hello", "o"));
-    </script>
-</body>
-</html>
